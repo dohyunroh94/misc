@@ -1,0 +1,27 @@
+create database employees;
+use employees;
+
+create table employees(
+	e_id char(4),
+	e_lastName varchar(40),
+	e_firstName varchar(40),
+	e_dateOfBirth date,
+	e_address varchar(50),
+	e_city varchar(30),
+	e_state char(2),
+	primary key(e_id));
+
+insert into employees
+values ('2353','ANDERSON','KENT','1985-08-12','3020 APPLEGATE DR','ELLICOTT CITY','MD');
+insert into employees
+values ('1642','SMITH','BOB','1970-02-14','3841 WINCHESTER RD','SACREMENTO','CA');
+insert into employees
+values ('9564','KENNEDY','JON','1973-04-23','3445 HOLLYFIELD RD','BOSTON','MA');
+insert into employees
+values ('7859','JAMES','KEVIN','1958-01-12','3213 YELLOW RD','RESTON','VA');
+insert into employees
+values ('7453','FOXX','JAMIE','1967-05-23','6753 GREY ROCK RD','AUSTIN','TX');
+insert into employees
+values ('9465','COX','PERRY','1988-04-30','3214 WOODROW DR','COLUMBIA','MD');
+insert into employees
+values ('2264','BRAFF','ZACH','1971-12-23','7564 JEANBRIDGE DR','SEATTLE','WA');
